@@ -15,7 +15,7 @@ const sendLearMoreMsg = async (user: TUserDocument) => {
           [{ text: lng.button.affiliateBtn }],
           [{ text: lng.button.influencers }],
           [{ text: lng.button.myReferals }],
-          [{ text: lng.button.statistics }],
+          [{ text: lng.button.lottery }],
           [{ text: lng.button.resources }],
           [{ text: lng.button.faq }],
           [{ text: lng.button.chat }],

@@ -10,7 +10,8 @@ const sendJoinToCommunityMsg = async (user: TUserDocument, lang?: string) => {
     .sendMessage(user.id, lng.message.joinToCommunity, {
       reply_markup: {
         inline_keyboard: [
-          [{ text: lng.button.joinChat, url: lng.link.telegramLink }],
+          [{ text: lng.button.joinChannel, url: lng.link.telegramChannelLink }],
+          [{ text: lng.button.joinChat, url: lng.link.telegramChatLink }],
           [{ text: lng.button.joinTwitter, url: lng.link.twitterLink }],
         ],
       },

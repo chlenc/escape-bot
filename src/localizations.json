@@ -2,9 +2,9 @@
     "SPA": {
         "message": {
             "selectLanguage": "Выберите язык / Select a language / Seleccione el idioma",
-            "welcome": "Bienvenido al metaverso gaming de Retro Wave 👾\n\nRetro Wave es un juego play to earn, donde puedes construir tu propio imperio, desarrollar granjas colectivas y luchar por recursos 💰.\n\nEntra en la sala del chat para empezar a ganar $REWA ahora.",
+            "welcome": "Bienvenido al metaverso gaming de Retro Wave 👾\n\nRetro Wave es un juego play to earn, donde puedes construir tu propio imperio, desarrollar granjas colectivas y luchar por recursos 💰.\n\nhttps://retrowave.org\n\nEntra en la sala del chat para empezar a ganar $REWA ahora.",
             "joinToCommunity": "👉👉👉 Corre y únete ➡️ a la comunidad:",
-            "needToJoin": "No lo veo en la lista de participantes del chat.\nSuscríbase 👇\n\n1️⃣  https://t.me/Retrowavemeta\n\n2️⃣  https://twitter.com/RetrowaveMeta",
+            "needToJoin": "No lo veo en la lista de participantes.\nSuscríbase 👇\n\n[👉 Unirse al сanal](https://t.me/Retrowavemeta)\n\n[👉 Unirse al chat](https://t.me/Retrowavemeta_chat)\n\n[👉 Unirse al twitter](https://twitter.com/RetrowaveMeta)\n",
             "whatGetTokensFor": "\n¿Qué puedo hacer para conseguir $REWA?\n\n✅ Invitar a un nuevo miembro de la comunidad a través de un enlace de referido = 5  $REWA\n\n✅ Estar entre los 10 primeros usuarios  = 5  $REWA diarios\n\n🎁 Sorteo semanal de 20 $REWA – Coming soon\n",
             "refMsg1": "¡Consigue tu link de referidos personal!\nhttps://t.me/{{botName}}?start={{userId}}\n\nTan solo tienes que invitar a tus amigos al juego 👾",
             "refMsg2": "Por cada nuevo usuario que se una al juego tu recibirás 💰5 $REWA en tu cuenta!",
@@ -13,11 +13,11 @@
             "walletDisconnected": "No tienes ninguna billetera conectada",
             "enterWallet": "Introduce la dirección de tu billetera",
             "invalidWallet": "Dirección inválida",
-            "resources": "💼 Enlaces oficiales\n\nTelegram: https://t.me/Retrowavemeta\nPágina web: \nTwitter: https://twitter.com/RetrowaveMeta\nGitBook: https://retro-wave.gitbook.io/retro-wave",
+            "resources": "💼 Enlaces oficiales\n\nCanal de Telegram: https://t.me/Retrowavemeta\nChat de Telegrama: https://t.me/Retrowavemeta_chat\nSitio web: https://retrowave.org\nTwitter: https://twitter.com/RetrowaveMeta\nGitBook: https://docs.retrowave.org\n\nCómo comprar una ficha:\nhttps://retro-wave.gitbook.io/buy-rewa-tokens",
             "noRefs": "No tienes referencias por ahora",
             "loggedInAccountInfo": "👤 Información de la cuenta\n\n✅ Dirección {{address}}\n\n💳 Balance {{balance}}  $REWA\n\n🗓 Llevas con nosotros {{daysWithUs}} días",
             "accountInfo": "👤 Información de la cuenta\n\n💳 Balance {{balance}}  $REWA\n\n🗓 Estás con nosotros {{daysWithUs}} días",
-            "faqMsg": "⁉️ Puede leer las respuestas a preguntas populares en nuestro sitio web oficial👇\nhttps://retro-wave.gitbook.io/retro-wave/",
+            "faqMsg": "⁉️ Puede leer las respuestas a preguntas populares en nuestro sitio web oficial👇\nhttps://docs.retrowave.org",
             "chatMsg": "Ve al canal principal del juego 👇  \nhttps://t.me/Retrowavemeta",
             "enterWalletAddress": "👛 Agregar dirección de billetera BSC\n",
             "wrongWalletAddress": "⛔️ Dirección incorrecta\n",
@@ -25,7 +25,7 @@
             "withdrawProcess": "⏳ Procesando el pedido...",
             "waitingForAdminConfirm": "🥱 Esperando la aprovación de un administrador",
             "successWithdraw": "Retiro de  $REWA exitosa ✅",
-            "hasNoUserError": "👇🏻 Porfavor, pulsa aquí 👇🏻\\n/start",
+            "hasNoUserError": "👇🏻 Porfavor, pulsa aquí 👇🏻\n\n/start",
             "somethingWrong": "Algo fué mal",
             "withdrawRejected": "⛔️ El retiro ha sido rechazado",
             "captcha": "Por favor, elige la respuesta correcta \n\n{{captcha}}",
@@ -35,7 +35,8 @@
             "ruLngButton": "🇷🇺Русский",
             "enLngButton": "🇬🇧 English",
             "esLngButton": "🇪🇸Espanol",
-            "joinChat": "👉 Unirse al сanal",
+            "joinChat": "👉 Unirse al chat",
+            "joinChannel": "👉 Unirse al сanal",
             "joinTwitter": "👉 Unirse al twitter",
             "alreadyWithYou": "✅ Ya estoy dentro",
             "learnMore": "✅ Aprender más",
@@ -60,17 +61,18 @@
             "checkTransaction": "📃 Revisar transacción"
         },
         "link": {
-            "telegramLink": "https://t.me/Retrowavemeta",
+            "telegramChannelLink": "https://t.me/Retrowavemeta",
+            "telegramChatLink": "https://t.me/Retrowavemeta_chat",
             "twitterLink": "https://twitter.com/RetrowaveMeta",
-            "howTocreateWalletLink": "https://retro-wave.gitbook.io/retro-wave/"
+            "howTocreateWalletLink": "https://retro-wave.gitbook.io/buy-rewa-tokens/"
         }
     },
     "RUS": {
         "message": {
             "selectLanguage": "Выберите язык / Select a language / Seleccione el idioma",
-            "welcome": "Добро пожаловать в игровую метавселенную Retro Wave 👾\n\nRetro Wave - это веселая игра, в которой ты создаешь cвою империю, развиваешь коллективные фермы и воюешь за ресурсы 💰\n\nЗалетай в чат и начинай зарабатывать криптовалюту $REWA сейчас",
+            "welcome": "Добро пожаловать в игровую метавселенную Retro Wave 👾\n\nRetro Wave - это веселая игра, в которой ты создаешь cвою империю, развиваешь коллективные фермы и воюешь за ресурсы 💰\n\nhttps://retrowave.org\n\nЗалетай в чат и начинай зарабатывать криптовалюту $REWA сейчас",
             "joinToCommunity": "👉👉👉 Скорее добавляйся ➡️ в комьюнити:\n",
-            "needToJoin": "Не вижу тебя в списке участников чата.\nСкорее подписывайся 👇\n\n1️⃣  https://t.me/Retrowavemeta\n\n2️⃣  https://twitter.com/RetrowaveMeta",
+            "needToJoin": "Не вижу тебя в списке участников.\nСкорее подписывайся 👇\n\n[👉Присоединиться к каналу](https://t.me/Retrowavemeta)\n\n[👉Присоединиться к чату](https://t.me/Retrowavemeta_chat)\n\n[👉Присоединиться к Twitter](https://twitter.com/RetrowaveMeta)\n",
             "whatGetTokensFor": "За что я получу токены $REWA?\n\n✅ Приглашение нового члена комьюнити по реферальной ссылке = 5  $REWA\n\n✅ 10 ТОП лидеров  = 5  $REWA ежедневно \n\n🎁 Еженедельный розыгрыш 20 $REWA – Coming soon\n",
             "refMsg1": "Забери свою персональную реферальную ссылку!\nhttps://t.me/{{botName}}?start={{userId}}\n\nВсе, что тебе нужно – это приглашать друзей в игру  👾",
             "refMsg2": "За каждого нового игрока, который пришел по твоей ссылке, ты получишь на свой счет 💰5 $REWA!\n",
@@ -79,11 +81,11 @@
             "walletDisconnected": "У вас не подключен кошелек",
             "enterWallet": "Ввести адрес кошелька",
             "invalidWallet": "Неверный адрес",
-            "resources": "💼 Официальные ресурсы\n\nТелеграм: https://t.me/Retrowavemeta\nСайт: \nTwitter: https://twitter.com/RetrowaveMeta\nGitBook: https://retro-wave.gitbook.io/retro-wave\n",
+            "resources": "💼 Официальные ресурсы\n\nТелеграм канал: https://t.me/Retrowavemeta\nТелеграм чат: https://t.me/Retrowavemeta_chat\nСайт: https://retrowave.org\nTwitter: https://twitter.com/RetrowaveMeta\nGitBook: https://docs.retrowave.org\n\nКак купить токен: \nhttps://retro-wave.gitbook.io/buy-rewa-tokens\n",
             "noRefs": "У вас пока нет рефералов",
             "loggedInAccountInfo": "👤 Информация об аккаунте\n\n✅ Address {{address}}\n\n💳 Баланс {{balance}}  $REWA\n\n🗓 Ты с нами: {{daysWithUs}} день",
             "accountInfo": "👤 Информация об аккаунте\n\n💳 Баланс {{balance}}  $REWA\n\n🗓 Ты с нами: {{daysWithUs}} дней",
-            "faqMsg": "⁉️ Ты можешь найти ответы на популярные вопросы здесь👇\nhttps://retro-wave.gitbook.io/retro-wave/",
+            "faqMsg": "⁉️ Ты можешь найти ответы на популярные вопросы здесь👇\nhttps://docs.retrowave.org",
             "chatMsg": " Заходите в основной канал игры 👇\nhttps://t.me/Retrowavemeta",
             "enterWalletAddress": "👛Введи адрес BSC кошелька, чтобы получить  $REWA токены",
             "wrongWalletAddress": "⛔️ Не верный адрес",
@@ -91,7 +93,7 @@
             "withdrawProcess": "⏳Подождите, токены выводятся...",
             "waitingForAdminConfirm": "🥱 Ждем апрува администратора, это может занять несколько минут...",
             "successWithdraw": "Ура, токены выведены успешно ✅",
-            "hasNoUserError": "👇🏻 Please, press here 👇🏻\\n/start",
+            "hasNoUserError": "👇🏻 Пожалуйста, нажмите здесь 👇🏻\n\n/start",
             "somethingWrong": "something wrong",
             "withdrawRejected": "⛔️ Вывод средств отклонен",
             "captcha": "Please, choose the right answer: \n\n{{captcha}}",
@@ -101,7 +103,8 @@
             "ruLngButton": "🇷🇺Русский",
             "enLngButton": "🇬🇧 English",
             "esLngButton": "🇪🇸Espanol",
-            "joinChat": "👉Присоединиться к каналу",
+            "joinChat": "👉Присоединиться к чату",
+            "joinChannel": "👉Присоединиться к каналу",
             "joinTwitter": "👉Присоединиться к Twitter",
             "alreadyWithYou": "✅ Я уже с вами",
             "learnMore": "✅ Узнать больше",
@@ -126,17 +129,18 @@
             "checkTransaction": "📃 Посмотреть транзакцию"
         },
         "link": {
-            "telegramLink": "https://t.me/Retrowavemeta",
+            "telegramChannelLink": "https://t.me/Retrowavemeta",
+            "telegramChatLink": "https://t.me/Retrowavemeta_chat",
             "twitterLink": "https://twitter.com/RetrowaveMeta",
-            "howTocreateWalletLink": "https://retro-wave.gitbook.io/retro-wave/"
+            "howTocreateWalletLink": "https://retro-wave.gitbook.io/buy-rewa-tokens/"
         }
     },
     "ENG": {
         "message": {
             "selectLanguage": "Выберите язык / Select a language / Seleccione el idioma",
-            "welcome": "Welcome to the Retro Wave gaming metaverse 👾\n\nRetro Wave is a play to earn game where you build your empire, develop collective farms and fight for resources 💰.\n\nGet in the chat room and start earning $REWA cryptocurrency now",
+            "welcome": "Welcome to the Retro Wave gaming metaverse 👾\n\nRetro Wave is a play to earn game where you build your empire, develop collective farms and fight for resources 💰.\n\nhttps://retrowave.org\n\nGet in the chat room and start earning $REWA cryptocurrency now",
             "joinToCommunity": "👉👉👉 Hurry up and join ➡️ the community:",
-            "needToJoin": "I don't see you in the list of chat participants.\nSubscribe 👇\n\n1️⃣  https://t.me/Retrowavemeta\n\n2️⃣  https://twitter.com/RetrowaveMeta",
+            "needToJoin": "I don't see you in the list of participants.\nSubscribe 👇\n\n[👉Join the channel](https://t.me/Retrowavemeta)\n\n[👉Join the chat](https://t.me/Retrowavemeta_chat)\n\n[👉Join twitter](https://twitter.com/RetrowaveMeta)\n",
             "whatGetTokensFor": "What do I get $REWA tokens for?\n\n✅ Inviting a new community member via a referral link = 5  $REWA\n\n✅ Top 10 leading users = 5  $REWA daily \n\n🎁 Weekly drawing of 50  $REWA – Coming soon",
             "refMsg1": "Get your personal referral link!\nhttps://t.me/{{botName}}?start={{userId}}\n\nAll you have to do is invite your friends to the game 👾",
             "refMsg2": "For every new player that joins through your link, you'll get 💰 5 $REWA to your account!",
@@ -145,11 +149,11 @@
             "walletDisconnected": "Your wallet is not connected",
             "enterWallet": "Enter the wallet address",
             "invalidWallet": "Invalid address",
-            "resources": "💼 Official links\n\nTelegram: https://t.me/Retrowavemeta\nWebsite: \nTwitter: https://twitter.com/RetrowaveMeta\nGitBook: https://retro-wave.gitbook.io/retro-wave",
+            "resources": "💼 Official links\n\nTelegram channel: https://t.me/Retrowavemeta\nTelegram chat: https://t.me/Retrowavemeta_chat\nWebsite: https://retrowave.org\nTwitter: https://twitter.com/RetrowaveMeta\nGitBook: https://docs.retrowave.org\n\nHow to buy a token:\nhttps://retro-wave.gitbook.io/buy-rewa-tokens",
             "noRefs": "You don't have any referrals for now",
             "loggedInAccountInfo": "👤 Account Information\n\n✅ Address {{address}}\n\n💳 Balance {{balance}}  $REWA\n\n🗓 You are with us for {{daysWithUs}} days",
             "accountInfo": "👤 Account Information\n\n💳 Balance {{balance}}  $REWA\n\n🗓 You are with us for {{daysWithUs}} days",
-            "faqMsg": "⁉️ You can read the answers to popular questions here  👇\nhttps://retro-wave.gitbook.io/retro-wave/\n",
+            "faqMsg": "⁉️ You can read the answers to popular questions here  👇\nhttps://docs.retrowave.org\n",
             "chatMsg": "Please join main channel here 👇https://t.me/Retrowavemeta  ",
             "enterWalletAddress": " 👛 Please add your BSC wallet address to withdraw  $REWA tokens",
             "wrongWalletAddress": "⛔️ Incorrect address",
@@ -157,7 +161,7 @@
             "withdrawProcess": "⏳ Withdraw in progress...",
             "waitingForAdminConfirm": "🥱 Waiting for admin approval, it could take several minutes...",
             "successWithdraw": "Congrats,  $REWA tokens withdrawn successfully  ✅",
-            "hasNoUserError": "👇🏻 Please, press here 👇🏻\\n/start",
+            "hasNoUserError": "👇🏻 Please, press here 👇🏻 \n\n/start",
             "somethingWrong": "something wrong",
             "withdrawRejected": "⛔️ Withdraw was rejected",
             "captcha": "Please, choose the right answer: \n\n{{captcha}}",
@@ -167,7 +171,8 @@
             "ruLngButton": "🇷🇺Русский",
             "enLngButton": "🇬🇧 English",
             "esLngButton": "🇪🇸Espanol",
-            "joinChat": "👉Join the channel",
+            "joinChat": "👉Join the chat",
+            "joinChannel": "👉Join the channel",
             "joinTwitter": "👉Join twitter",
             "alreadyWithYou": "✅ I'm already in",
             "learnMore": "✅ Learn more",
@@ -192,9 +197,10 @@
             "checkTransaction": "📃 Check transaction"
         },
         "link": {
-            "telegramLink": "https://t.me/Retrowavemeta",
+            "telegramChannelLink": "https://t.me/Retrowavemeta",
+            "telegramChatLink": "https://t.me/Retrowavemeta_chat",
             "twitterLink": "https://twitter.com/RetrowaveMeta",
-            "howTocreateWalletLink": "https://retro-wave.gitbook.io/retro-wave/"
+            "howTocreateWalletLink": "https://retro-wave.gitbook.io/buy-rewa-tokens/"
         }
     }
 }

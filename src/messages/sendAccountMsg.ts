@@ -30,7 +30,12 @@ const sendAccountMsg = async (user) => {
     ? [
         [createInlineButton(lng.button.withdraw, keys.withdraw)],
         [createInlineButton(lng.button.changeAddress, keys.changeAddress)],
-        [{ text: lng.button.howToCreateWallet, url: lng.link.telegramLink }],
+        [
+          {
+            text: lng.button.howToCreateWallet,
+            url: lng.link.howTocreateWalletLink,
+          },
+        ],
       ]
     : [
         [createInlineButton(lng.button.enterWalletAddress, keys.enterAddress)],

@@ -35,7 +35,9 @@ bot.on("message", async (msg) => {
   if (/\/start[ \t]*(.*)/.test(msg.text)) return;
   if (user == null) {
     await bot
-      .sendMessage(msg.from.id, langs.ENG.message.hasNoUserError)
+      .sendMessage(msg.from.id, langs.ENG.message.hasNoUserError, {
+        parse_mode: "HTML",
+      })
       .catch(() => console.log(`❗️cannot send message to ${msg.from.id}`));
 
     return;
@@ -62,11 +64,20 @@ bot.on("message", async (msg) => {
     case langs.ENG.button.alreadyWithYou:
     case langs.RUS.button.alreadyWithYou:
     case langs.SPA.button.alreadyWithYou:
-      const res = await telegramService.telegram.getChatMember(
-        `@${langs[user.lang].link.telegramLink.split("/").pop()}`,
-        String(user.id)
-      );
-      if (res.status === "member" || res.status === "administrator") {
+      //todo check chat
+      const res = await Promise.all([
+        telegramService.telegram.getChatMember(
+          `@${langs[user.lang].link.telegramChannelLink.split("/").pop()}`,
+          String(user.id)
+        ),
+        telegramService.telegram.getChatMember(
+          `@${langs[user.lang].link.telegramChatLink.split("/").pop()}`,
+          String(user.id)
+        ),
+      ]);
+      if (
+        res.every((r) => r.status === "member" || r.status === "administrator")
+      ) {
         await sendWhatGetTokensForMessage(user);
       } else {
         await sendNeedJoinToCommunityMsg(user);

@@ -11,6 +11,7 @@ const sendNeedJoinToCommunityMsg = async (
   const lng = langs[lang != null ? lang : user.lang];
   await bot
     .sendMessage(user.id, lng.message.needToJoin, {
+      parse_mode: "Markdown",
       reply_markup: {
         resize_keyboard: true,
         keyboard: [[{ text: lng.button.alreadyWithYou }]],
