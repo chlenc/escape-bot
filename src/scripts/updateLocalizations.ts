@@ -1,7 +1,7 @@
 import axios from "axios";
 import { writeFileSync } from "fs";
 const requestUrl =
-  "https://opensheet.vercel.app/1bHL4XYwYUtsEcWl5pjAYtujZ8POAn_E1otm9SBaRLRw/translates";
+  "https://opensheet.vercel.app/1_3-F-2f4fNhS_haPbJ_KKzZqKTFr4wZprINjDEA9MO0/translates";
 type TItemType = "message" | "button" | "link";
 type TItem = {
   Type: TItemType;

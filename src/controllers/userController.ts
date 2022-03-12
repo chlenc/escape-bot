@@ -17,7 +17,7 @@ export const createUser = async (from: ITelegramUser, match: string | null) => {
       await User.findByIdAndUpdate(user._id, { ref: +match }).exec();
       const invitor = await getUserById(+match);
       const balance = new BigNumber(invitor.balance)
-        .plus(process.env.REWA_AMOUNT)
+        .plus(process.env.TOKEN_AMOUNT)
         .toString();
       await invitor.updateOne({ balance }).exec();
     } else {

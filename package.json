@@ -1,10 +1,10 @@
 {
-  "name": "waves_bot",
+  "name": "escape_bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "start": "ts-node ./src/index.ts",
     "updateLocalizations": "ts-node src/scripts/updateLocalizations.ts",
     "watch": "nodemon --watch './' --ignore 'src/**/*.spec.ts' --exec 'ts-node' ./src/index.ts"
   },

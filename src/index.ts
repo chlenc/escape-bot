@@ -66,17 +66,24 @@ bot.on("message", async (msg) => {
     case langs.SPA.button.alreadyWithYou:
       //todo check chat
       const res = await Promise.all([
-        telegramService.telegram.getChatMember(
-          `@${langs[user.lang].link.telegramChannelLink.split("/").pop()}`,
-          String(user.id)
-        ),
-        telegramService.telegram.getChatMember(
-          `@${langs[user.lang].link.telegramChatLink.split("/").pop()}`,
-          String(user.id)
-        ),
+        telegramService.telegram
+          .getChatMember(
+            `@${langs[user.lang].link.telegramChannelLink.split("/").pop()}`,
+            String(user.id)
+          )
+          .catch(() => ({ status: "Лох цветочный сиськастый" })),
+        // telegramService.telegram.getChatMember(
+        //   `@${langs[user.lang].link.telegramChatLink.split("/").pop()}`,
+        //   String(user.id)
+        // ),
       ]);
       if (
-        res.every((r) => r.status === "member" || r.status === "administrator")
+        res.every(
+          (r) =>
+            r.status === "member" ||
+            r.status === "administrator" ||
+            r.status === "creator"
+        )
       ) {
         await sendWhatGetTokensForMessage(user);
       } else {
